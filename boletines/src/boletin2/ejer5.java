@@ -9,6 +9,7 @@ public class ejer5 {
 		String nif; //DNI del usuario
 		String domicilio; //Domicilio del usuario
 		double p_descuento = 0.0; //Porcentaje de descuento
+		double total = 0.0;
 		String concepto; //Matame primer aviso
 		int cantidad =0;
 		double precio=0.0;
@@ -90,8 +91,20 @@ public class ejer5 {
 		System.out.println("Porcentaje del descuento: ");
 		p_descuento  = scanner.nextDouble();
 		
-		System.out.println("Nombre: " + nom);
+		total = importe + importe1 + importe2 + importe3 + importe4;
+		
+		System.out.println("\n\tCliente: " + nom + "\t N.I.F: " + nif);
+		System.out.println("\n\tDomicilio: " + domicilio);
+		System.out.println("\n\tCantidad \tConcepto-Referencia \tPrecio \tImporte");  
+		System.out.println("\n\t" +cantidad+ "                  " +concepto+ "                    " +precio+ "     " +importe);
+		System.out.println("\n\t" +cantidad1+ "                  " +concepto1+ "                    " +precio1+ "     " +importe1);
+		System.out.println("\n\t" +cantidad2+ "                  " +concepto2+ "                    " +precio2+ "     " +importe2);
+		System.out.println("\n\t" +cantidad3+ "                  " +concepto3+ "                    " +precio3+ "     " +importe3);
+		System.out.println("\n\t" +cantidad4+ "                  " +concepto4+ "                    " +precio4+ "     " +importe4);
+		System.out.println("\n\tTotal bruto \tDescuento \t Total");
+		System.out.println("\n\t" + total + "\t" + p_descuento + "\t" + (total - (total * (p_descuento/100))));
 		
 	}
+	
 
 }
