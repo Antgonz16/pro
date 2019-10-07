@@ -90,7 +90,7 @@ public class ejer5 {
 		System.out.println("Porcentaje del descuento: ");
 		p_descuento  = scanner.nextDouble();
 		
-		
+		System.out.println("Nombre: " + nom);
 		
 	}
 
