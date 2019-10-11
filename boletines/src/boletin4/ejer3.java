@@ -8,6 +8,7 @@ public class ejer3 {
 		double altura = 0.0;
 		double area = 0.0;
 		String bordado;
+		double precio_bordado = 0.0; 
 		double precio = 0.0;
 		
 		System.out.println("Introduzca la altura de la bandera en cm: ");
@@ -22,13 +23,16 @@ public class ejer3 {
 		area = ancho * altura;
 		precio = area/100;
 		System.out.println("Gracias. Aquí tiene el desglose de su compra.");
-		System.out.println("Bandera de "+area+" cm2:  " +precio+ " €" );
-		if(bordado.contentEquals("si")) {
-		System.out.println("Con escudo: "+area+" cm2:  " +precio+ " €" );
+		System.out.println("Bandera de "+area+" cm2:  \t" +precio+ " €");
+		if(bordado.contentEquals("s")) {
+			precio_bordado = 2.50;
+			System.out.println("Con escudo:           \t" +precio_bordado+ " €");
 		}
 		else {
-			
+			System.out.println("Sin escudo:          \t" +precio_bordado+ " €");
 		}
+		System.out.println("Gastos de envio:      \t3.25 €");
+		System.out.println("Total:             \t" +(precio+precio_bordado+3.25)+ " €");
 	}
 
 }
