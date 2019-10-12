@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ejer3 {
 
 	public static void main(String[] args) {
+		//Programa que calcula el precio de una hacer una bandera
 		Scanner scanner = new Scanner(System.in);
 		double ancho = 0.0;
 		double altura = 0.0;
@@ -11,6 +12,7 @@ public class ejer3 {
 		double precio_bordado = 0.0; 
 		double precio = 0.0;
 		
+		//Lectura de datos
 		System.out.println("Introduzca la altura de la bandera en cm: ");
 		altura = scanner.nextDouble();
 		System.out.println("Ahora introduzca la: ");
@@ -20,8 +22,12 @@ public class ejer3 {
 			System.out.println("¿Quieres escudo bordado? (s/n): ");
 			bordado = scanner.nextLine();
 		} while (bordado.contentEquals("s")== false && bordado.contentEquals("n")== false);
+		
+		//Calculo de operaciones
 		area = ancho * altura;
 		precio = area/100;
+		
+		//Escritura de resulatados
 		System.out.println("Gracias. Aquí tiene el desglose de su compra.");
 		System.out.println("Bandera de "+area+" cm2:  \t" +precio+ " €");
 		if(bordado.contentEquals("s")) {
