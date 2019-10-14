@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class ejer6 {
 
 	public static void main(String[] args) {
+		//Desglosa un numero en centenas, decimales y unidades
 		Scanner scanner = new Scanner(System.in);
 		int num = 0;
 		int num_c = 0;
@@ -12,6 +13,7 @@ public class ejer6 {
 		int segundo = 0;
 		int tercero = 0;
 		
+		//Lectura de datos
 		System.out.println("Introduza valor de N de tres cifras: ");
 		do {
 			num = scanner.nextInt();
@@ -19,6 +21,7 @@ public class ejer6 {
 		while (num>999 && num<100); {	
 		}
 		
+		//Calculo de datos
 		num_c = num;
 		tercero = num_c%10;
 		num_c = num_c/10;
@@ -26,7 +29,7 @@ public class ejer6 {
 		num_c = num_c/10;
 		primero = num_c%10;
 		
-		
+		//Escritura de datos
 		System.out.println("Primera cifra de " + num + " -> " + primero);
 		System.out.println("Segunda cifra de " + num + " -> " + segundo);
 		System.out.println("Tercera cifra de " + num + " -> " + tercero);
