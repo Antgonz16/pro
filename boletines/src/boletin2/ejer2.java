@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ejer2 {
 
 	public static void main(String[] args) {
-		
+		//Realiza una tablas de equivalencias
 		Scanner scanner = new Scanner(System.in);
 		double equivalencia = 1024.0; //equivalencia entre bytes el resto
 		double b = 0.0; //byte

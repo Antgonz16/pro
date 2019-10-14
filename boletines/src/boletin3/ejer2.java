@@ -14,6 +14,7 @@ public class ejer2 {
 		int mes;
 		int anyo;
 		
+		//Lectura de datos
 		System.out.println("Introduce fecha de nacimiento en formato AAAA MM DD: ");
 		anyo = scanner.nextInt();
 		mes = scanner.nextInt();
@@ -30,6 +31,7 @@ public class ejer2 {
 		System.out.println("Introduce retencion: ");
 		retencion = scanner.nextInt();
 		
+		//Escritura de datos
 		System.out.println("\n\tINFORME DEL TRABAJADOR");
 		System.out.println("\n\t-------------------------------------------------------");
 		System.out.println("\n\tNombre.............: " + nom);

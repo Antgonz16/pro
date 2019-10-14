@@ -14,6 +14,7 @@ public class ejer5 {
 		media = scanner.nextDouble();
 		
 		nota2 = (media - (nota1*0.4))/0.6;
+		nota2 = Math.rint(nota2*100)/100;
 		
 		
 		System.out.println("Para tener un "+media+" en el trimestre necesitas sacar un "+nota2+"en el segundo examen");

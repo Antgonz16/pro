@@ -10,27 +10,29 @@ public class ejer5 {
 		String domicilio; //Domicilio del usuario
 		double p_descuento = 0.0; //Porcentaje de descuento
 		double total = 0.0;
-		String concepto; //Matame primer aviso
+		String concepto; //Datos 1
 		int cantidad =0;
 		double precio=0.0;
 		double importe=0.0;
-		String concepto1; //Matame segundo aviso
+		String concepto1; //Datos 2
 		int cantidad1 =0;
 		double precio1 =0.0;
 		double importe1 =0.0;
-		String concepto2;//Matame tercer aviso
+		String concepto2; //Datos 3
 		int cantidad2=0;
 		double precio2 =0.0;
 		double importe2 =0.0;
-		String concepto3;//Matame cuarto aviso
+		String concepto3; //Datos 4
 		int cantidad3=0;
 		double precio3 =0.0;
 		double importe3 =0.0;
-		String concepto4;//Matame quinto aviso
+		String concepto4; //Datos 5
 		int cantidad4=0;
 		double precio4 =0.0;
 		double importe4 =0.0;
 		
+		
+		//Lectura de datos
 		System.out.println("\nCliente: ");
 		nom = scanner.nextLine();
 		System.out.println("N.I.F: ");
@@ -82,7 +84,7 @@ public class ejer5 {
 		p_descuento  = scanner.nextDouble();
 		
 		
-		
+		//Escritura de datos
 		System.out.println("\n\tCliente: " + nom + "\t N.I.F: " + nif);
 		System.out.println("\n\tDomicilio: " + domicilio); 
 		System.out.println("\n\tCantidad " +cantidad+ "\tConcepto-Referencia " +concepto+ "\tPrecio " +precio+ "\tImporte " +(importe = precio*cantidad));
