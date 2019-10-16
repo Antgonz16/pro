@@ -53,8 +53,10 @@ public class ejer2 {
 			retencion = 20.0;
 			break;	
 		}
+		
+		//Formulas
 		dietas = 30 * dias_viaje;
-		sueldo_bruto = sueldo_base+(30 * dias_viaje);
+		sueldo_bruto = sueldo_base+dietas;
 		sueldo_retencion = sueldo_bruto*(retencion/100);
 		sueldo_neto = sueldo_bruto - sueldo_retencion;
 		
