@@ -15,7 +15,7 @@ public class ejer2 {
 		if((num1>=0 && num2>=0)||(num1<=0 && num2<=0)) {
 			System.out.println("El producto es positivo o nulo");
 		}
-		else if ((num1<0 && num2>0) ||(num1>0 && num2<0)) {
+		else {
 			System.out.println("El producto es negativo");
 		}
 	}
