@@ -5,15 +5,17 @@ import java.util.Scanner;
 public class ejer1 {
 
 	public static void main(String[] args) {
+		//Comprueba el cuadrante de dos coordenadas
 		Scanner scanner = new Scanner(System.in);
 		int num1,num2;
 		
-		
+		//Lectura de datos
 		System.out.println("Dame dos cordenados para el centro de una circunferencia\na:");
 		num1= scanner.nextInt();
 		System.out.println("b:");
 		num2= scanner.nextInt();
 		
+		//Escritura de datas
 		if (num1>0) {
 			if(num2>0) {
 				System.out.println("Primer cuadrante");
