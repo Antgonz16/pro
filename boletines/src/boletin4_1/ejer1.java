@@ -24,7 +24,7 @@ public class ejer1 {
 				System.out.println("Cuarto cuadrante");
 			}
 		}
-		if (num1<0) {
+		else {
 			if (num2>0) {
 				System.out.println("Segundo cuadrante");
 			}
@@ -32,7 +32,7 @@ public class ejer1 {
 				System.out.println("Tercer cuadrante");
 			}
 		}		
-		else if (num1!=0 && num2==0) {
+		if (num1!=0 && num2==0) {
 			System.out.println("Eje de abscisas");
 		}
 		else if (num1==0 && num2!=0) {
@@ -41,6 +41,29 @@ public class ejer1 {
 		else {
 			System.out.println("Origen de coordenadas");
 		}
+		
+		
+//		if (num1>0 && num2>0) {
+//			System.out.println("Primer cuadrante");
+//		}
+//		else if (num1<0 && num2>0) {
+//			System.out.println("Segundo cuadrante");
+//		}
+//		else if (num1<0 && num2<0) {
+//			System.out.println("Tercer cuadrante");
+//		}
+//		else if (num1>0 && num2<0) {
+//			System.out.println("Cuarto cuadrante");
+//		}
+//		else if (num1!=0 && num2==0) {
+//			System.out.println("Eje de abscisas");
+//		}
+//		else if (num1==0 && num2!=0) {
+//			System.out.println("Eje de ordenadas");
+//		}
+//		else {
+//			System.out.println("Origen de coordenadas");
+//		}
 	}
 
 }
