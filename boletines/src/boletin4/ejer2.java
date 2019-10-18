@@ -20,6 +20,7 @@ public class ejer2 {
 		System.out.println("Introduce el cargo del empleado (1 - 3): ");
 		puesto = scanner.nextInt();
 		while (puesto > 3) {
+			System.out.println("Ha de ser un numero del 1 al 3");
 			System.out.println("1 - Progrador junior \n2 - Programador senior \n3 - Jefe de proyecto");
 			System.out.println("Introduce el cargo del empleado (1 - 3): ");
 			puesto = scanner.nextInt();
@@ -29,6 +30,7 @@ public class ejer2 {
 		System.out.println("Introduzca su estado civil (1 - Soltero, 2 - Casado): ");
 		estado_civil = scanner.nextInt();
 		while (estado_civil>2) {
+			System.out.println("Ha de ser un numero del 1 al 2");
 			System.out.println("Introduzca su estado civil (1 - Soltero, 2 - Casado): ");
 			estado_civil = scanner.nextInt();
 		}
