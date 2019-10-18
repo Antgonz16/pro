@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ejer3",
+            "request": "launch",
+            "mainClass": "src.boletin4.ejer3",
+            "projectName": "boletines_7f5c4a5b"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ejer2",
             "request": "launch",
             "mainClass": "src.boletin4.ejer2",
