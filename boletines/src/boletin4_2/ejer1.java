@@ -41,7 +41,7 @@ public class ejer1 {
 		usuario = usuario.toLowerCase();//Pasa a minuscula
 		
 		//Comprueba el resultado final y lo muestra
-		if(usuario.contentEquals("piedra") == false && usuario.contentEquals("papel") == false && usuario.contentEquals("papel") == false ) {
+		if(usuario.contentEquals("piedra") == false && usuario.contentEquals("tijeras") == false && usuario.contentEquals("papel") == false ) {
 			System.out.println("Lo que has introducido no es una opcion");
 		}
 		else {
