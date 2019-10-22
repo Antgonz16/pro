@@ -45,7 +45,7 @@ public class ejer1 {
 			System.out.println("Lo que has introducido no es una opcion");
 		}
 		else {
-			System.out.println("Eleji "+maquina);
+			System.out.println("Elegi "+maquina);
 			if (maquina.contentEquals(usuario)) {
 				System.out.println("Vaya empatamos");
 			}
