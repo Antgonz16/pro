@@ -1,9 +1,9 @@
 /******************************************************************\
  * Author: Javier Ros Roig 1�DAM IES Serpis
  * 
- * Descripcion: Escribe un reloj de arena de la altura que pongas
+ * Descripcion: Calcula precios de una autoescula
  * 
- * Fecha: 22-10-2019
+ * Fecha: 23-10-2019
  * 
  * Version: 1.0
  \*******************************************************************/
@@ -19,13 +19,14 @@ public class ejer1 {
 		String carnet;
 		int practica;
 		
+		//Lectura de datos
 		System.out.println("Dime que clase de que carnet quieres saber la informacion");
 		carnet=scanner.nextLine();
-		System.out.println("Dime la cantidad de practicas");
 		carnet=carnet.toLowerCase();
-		
+		System.out.println("Dime la cantidad de practicas");
 		practica = scanner.nextInt();
 		
+		//Escritura de datos
 		switch (carnet) {
 		case "a":
 			System.out.println("Precio de la matricula 150 euros");	

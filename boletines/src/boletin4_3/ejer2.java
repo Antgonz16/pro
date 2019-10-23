@@ -1,9 +1,9 @@
 /******************************************************************\
  * Author: Javier Ros Roig 1�DAM IES Serpis
  * 
- * Descripcion: Escribe un reloj de arena de la altura que pongas
+ * Descripcion: Calcula los minutos restantes hasta el viernes a las 14
  * 
- * Fecha: 22-10-2019
+ * Fecha: 23-10-2019
  * 
  * Version: 1.0
  \*******************************************************************/
@@ -19,6 +19,7 @@ public class ejer2 {
 		String dia;
 		int horas,minutos,num_semana, horas_restantes, minutos_restantes;
 		
+		//Lectura de datos
 		System.out.println("Dime que dia es, la hora y los minutos y te calculare cuanto falta para el fin de semana");
 		do {
 			System.out.println("Dime el dia: ");
@@ -34,6 +35,7 @@ public class ejer2 {
 			minutos = scanner.nextInt();
 		} while ((minutos>59));
 		
+		//Escritura de datos
 		switch (dia) {
 		case "lunes":
 			horas_restantes= 24-horas;//Horas que quedan
