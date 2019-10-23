@@ -1,7 +1,7 @@
 /******************************************************************\
- * Author: Javier Ros Roig 1ºDAM IES Serpis
+ * Author: Javier Ros Roig 1ï¿½DAM IES Serpis
  * 
- * Descripcion: Escribe una x en funcion de la altura que introduzcas
+ * Descripcion: Escribe un reloj de arena de la altura que pongas
  * 
  * Fecha: 22-10-2019
  * 
@@ -25,7 +25,6 @@ public class ejer6_2 {
 		System.out.println("Dame la altura de la X que quieres que dibuje");
 		altura = scanner.nextInt();
 		division= altura/2;
-		System.out.println(division);
 		//Calculo de resultados
 		if(altura%2!=0)
 		{
@@ -34,7 +33,7 @@ public class ejer6_2 {
 					//Escritura de datos
 					if (i<=division+1){
 						if ((i-j)>0||((i+j)>altura+1)) {
-							System.out.print("-");
+							System.out.print(" ");
 							
 						}
 						else {
@@ -43,7 +42,7 @@ public class ejer6_2 {
 					}
 					else {
 						if (((j+i)<=altura)||(i-j)<0) {
-							System.out.print("-");
+							System.out.print(" ");
 							
 						}
 						else {
