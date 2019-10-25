@@ -29,9 +29,9 @@ public class ejer7 {
 		if(altura%2!=0 && altura>=5)
 		{
 			for (i = 1; i <= altura ; i++) {
-				for (j = 1; j <= 5; j++) {
+				for (j = 1; j <= 6; j++) {
 					//Escritura de datos
-					if (i==1||i==division+1||i==altura||j==1||j==5) {
+					if (i==1||i==division+1||i==altura||j==1||j==6) {
 						System.out.print("M");
 							
 					}

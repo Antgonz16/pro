@@ -41,7 +41,7 @@ public class ejer6_2 {
 						}
 					}
 					else {
-						if (((j+i)<=altura)||(i-j)<0) {
+						if ((i-j)<0||((j+i)<=altura)) {
 							System.out.print(" ");
 							
 						}
