@@ -6,26 +6,29 @@ public class san_fermines {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		String toros;
-		int vel_max=0;
-		String velocidad;
-		int vel;
-		int i ;
+		int vel_max;
+		int vel=0;
 		int bucle;
-	
-		toros = scanner.next();
-		bucle = Integer.parseInt (toros);
-		if(bucle>=1) {
-			for (i = 0; i < bucle; i++) {
-				velocidad= scanner.next();
-				vel = Integer.parseInt (velocidad);
-				if(vel>=0) {
-					if (vel>vel_max) {
-						vel_max=vel;
+		
+		while(scanner.hasNext()) {
+			vel_max=0;
+			bucle = scanner.nextInt();
+
+			if(bucle >= 1){
+
+				for(int i=0; i<bucle; i++){
+
+					vel = scanner.nextInt();
+					
+					if(vel > vel_max){
+						vel_max = vel;
 					}
+
 				}
+				 	
+				System.out.println(vel_max);
+			
 			}
-			System.out.print(vel_max);
 		}
 	}
 }
