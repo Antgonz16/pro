@@ -22,6 +22,8 @@ public class ejer2 {
 		int num1, num2;
 		
 		//Menu
+		System.out.println("Dame la cadena");
+		usuario = scanner.nextLine();
 		do {
 			System.out.println("1.- Longitud de una cadena\n" + 
 					"2.- Comparación de dos cadenas\n" + 
@@ -30,8 +32,6 @@ public class ejer2 {
 					"5.- Invertir cadenas\n" + 
 					"6.- Es palíndromo\n" + 
 					"9.- Salir");
-			System.out.println("Dame la cadena");
-			usuario = scanner.nextLine();
 			System.out.println("Dame una opcion del menu: ");
 			opcion = scanner.nextInt();
 			

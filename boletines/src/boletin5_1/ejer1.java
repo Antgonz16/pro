@@ -26,8 +26,8 @@ public class ejer1 {
 		do {
 			System.out.println("1.- Obtener fecha actual\n" + 
 					"2.- Obtener hora actual\n" + 
-					"3.- Sumar días\n" + 
-					"4.- Diferencia en días\n" + 
+					"3.- Sumar dias\n" + 
+					"4.- Diferencia en dias\n" + 
 					"5.- Anterior o Posterior\n" + 
 					"9.- Salir");
 			System.out.println("Dame una opcion del menu: ");

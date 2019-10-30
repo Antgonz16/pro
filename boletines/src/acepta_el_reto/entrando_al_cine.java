@@ -15,8 +15,7 @@ public class entrando_al_cine {
 		while (scanner.hasNext()) {
 			for (int i = 0; i < casos; i++) {
 				num_personas = scanner.nextInt();
-				for (int j = 0; j < num_personas; j++) {
-					
+				for (int j = 0; j < num_personas; j++) {					
 						butaca=scanner.nextInt();
 						if(butaca%2==0) {
 							contador_par++;
@@ -29,10 +28,8 @@ public class entrando_al_cine {
 						}
 						else {
 							contador_impar++;
-						}
-							
-				}
-					
+						}			
+				}	
 				contador_impar = 0;
 				contador_par = 0;
 			}
