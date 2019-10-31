@@ -32,14 +32,16 @@ public class entrando_al_cine {
 				}	
 				contador_impar = 0;
 				contador_par = 0;
+				if (respuesta.contains("NO")==true) {
+					System.out.println(respuesta);
+				}
+				else {
+					System.out.println(respuesta+contador_par);
+				}
 			}
+			
 		}
-		if (respuesta.contains("NO")==true) {
-			System.out.println(respuesta);
-		}
-		else {
-			System.out.println(respuesta+contador_par);
-		}
+		
 	}
 
 }
