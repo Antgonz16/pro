@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - san_fermines",
+            "request": "launch",
+            "mainClass": "src.acepta_el_reto.san_fermines",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - lado_de_la_calle",
+            "request": "launch",
+            "mainClass": "src.acepta_el_reto.lado_de_la_calle",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ejer1",
+            "request": "launch",
+            "mainClass": "src.boletin2.ejer1",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - la_fiesta_aburrida",
+            "request": "launch",
+            "mainClass": "src.acepta_el_reto.la_fiesta_aburrida",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - entrando_al_cine",
+            "request": "launch",
+            "mainClass": "src.acepta_el_reto.entrando_al_cine",
+            "projectName": "pro"
+        }
+    ]
+}
