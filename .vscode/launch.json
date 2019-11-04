@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - laberinto2",
+            "request": "launch",
+            "mainClass": "programas.laberinto2",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ejer3",
+            "request": "launch",
+            "mainClass": "src.boletin5.ejer3",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - laberinto",
+            "request": "launch",
+            "mainClass": "programas.laberinto",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - hoy_comemos_mejillones",
             "request": "launch",
             "mainClass": "src.acepta_el_reto.hoy_comemos_mejillones",
