@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - hoy_comemos_mejillones",
+            "request": "launch",
+            "mainClass": "src.acepta_el_reto.hoy_comemos_mejillones",
+            "projectName": "pro"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ejer4",
             "request": "launch",
             "mainClass": "src.boletin5.ejer4",

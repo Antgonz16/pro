@@ -2,7 +2,6 @@ package src.boletin5;
 
 import java.util.*;
 
-import javax.print.DocFlavor.CHAR_ARRAY;
 
 public class ejer4 {
 
