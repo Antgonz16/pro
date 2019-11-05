@@ -70,9 +70,10 @@ public class laberinto2 {
 				}
 				System.out.print("\n");
 			}
-			
-			
-			
+			else {
+				System.out.println("El laberinto no tiene solucion");
+				break;
+			}
 			
 		}
 		System.out.println("Sali del laberinto");
