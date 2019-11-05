@@ -1,4 +1,4 @@
-package src.acepta_el_reto;
+package acepta_el_reto;
 
 import java.util.Scanner;
 
