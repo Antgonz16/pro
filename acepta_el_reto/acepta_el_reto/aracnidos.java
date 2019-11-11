@@ -8,7 +8,6 @@ public class aracnidos {
 		Scanner scanner = new Scanner(System.in);
 		int insectos,aracnidos,crustraceos,escalopendra,anillos;
 		int caso;
-		int patas;
 		
 		caso = scanner.nextInt();
 		
@@ -18,8 +17,7 @@ public class aracnidos {
 			crustraceos=scanner.nextInt();
 			escalopendra=scanner.nextInt();
 			anillos=scanner.nextInt();
-			patas=insectos*6+aracnidos*8+crustraceos*10+escalopendra*anillos*2;
-			System.out.println(patas);
+			System.out.println(insectos*6+aracnidos*8+crustraceos*10+escalopendra*anillos*2);
 		}
 		
 	}
