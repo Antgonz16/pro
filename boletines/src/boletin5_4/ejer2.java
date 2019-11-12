@@ -38,7 +38,6 @@ public class ejer2 {
 			for (int j = 0; j < m[0].length; j++) {
 					suma+=m[i][j];
 			}
-			System.out.println(suma);
 			if (i>0&&suma!=suma_compar) {
 				System.out.println("No es un cuadrado magico");
 				System.exit(0);	
@@ -50,7 +49,6 @@ public class ejer2 {
 			for (int i = 0; i < m[0].length; i++) {
 					suma+=m[i][j];
 			}
-			System.out.println(suma);
 			if (j>0&&suma!=suma_compar) {
 				System.out.println("No es un cuadrado magico");
 				System.exit(0);	
@@ -63,7 +61,6 @@ public class ejer2 {
 				suma+=m[i][j];
 			}
 		}
-		System.out.println(suma);
 		if (suma!=suma_compar) {
 			System.out.println("No es un cuadrado magico");
 			System.exit(0);	
@@ -71,13 +68,12 @@ public class ejer2 {
 		suma_compar=suma;
 		suma=0;
 		for (int i = 0; i < m.length; i++) {
-			for (int j = m.length; j > 0; j--) {
-				if((j+i)==m.length) {
-				suma=suma+m[i][j];
+			for (int j = m.length; j >= 0; j--) {
+				if((j+i)==m.length-1) {
+					suma=suma+m[i][j];
 				}
 			}
 		}
-		System.out.println(suma);
 		if (suma!=suma_compar) {
 			System.out.println("No es un cuadrado magico");
 			System.exit(0);	
